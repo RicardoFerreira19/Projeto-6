@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.div-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 90px;
+    margin: 10px 0px 0px 30px;
+}
+
+.menu {
+    margin-right: 105px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #4F4F4F;
+}
+
+a:hover {
+    color: #808080;
+}
+
+.div-sect {
+    justify-content: space-between;
+    display: flex;
+}
+
+.div-left {
+    width: 50%;
+    margin: 90px 0px 0px 50px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+span {
+    color: #006241;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+button {
+    border-radius: 21px;
+    background-color: #006241;
+    color: white;
+    width: 130px;
+    height: 37px;
+    font-weight: 500;
+    margin-top: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #03744e;
+}
+
+.div-right {
+    width: 30%;
+}
+
+.img-right {
+    margin-top: 70px;
+    width: 300px;
+}
+
+.circulo {
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    background-color: #006241;
+    border-radius: 600px;
+    margin-left: 900px;
+    margin-top: -500px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 900px) {
+
+    .div-header {
+        justify-content: center;
+        width: 100vw;
+        margin: 0px 0px 0px 0px;
+
+    }
+    .logo{
+        margin: 0px 0px 0px 0px;
+    }
+
+    .logo-header {
+        justify-content: center;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .div-sect {
+        justify-content: center;
+        flex-direction: column;
+        width: 100vh;
+        margin-top: -39px;
+
+    }
+    .div-left{
+        width: 35%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+    }
+p{
+    width: 95%;
+}
+    h1 {
+        font-size: 31px;
+        font-weight: 900;
+    }
+    .div-right{
+        width: 52%;
+        justify-content: center;
+        display: flex;
+    }
+    .img-right{
+        width: 243px;
+    }
+   
+
+
+}
