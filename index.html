@@ -5,43 +5,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;900&display=swap" rel="stylesheet">
     <title>Starbucks</title>
 </head>
 
 <body>
+    <main>
+        <header>
+            <img class="logo" src="assets/img/logo.png" alt="Logo">
+            <div class="navbar">
+                <a href="">Home</a>
+                <a href="">Menu</a>
+                <a href="">What´s New</a>
+                <a href="">Contact us</a>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="scroll-left">
+                    <h1>It´s not just Coffee<br>
+                        It´s <span>Starbucks</span>
+                    </h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore soluta asperiores sint dolor
+                        provident velit sit est quas praesentium, reiciendis aperiam repudiandae deleniti error
+                        excepturi
+                        aut quis omnis voluptatum at?</p>
+                    <button>Learn More</button>
+                </div>
+                <img class="big-cup" src="assets/img/img1.png" alt="">
+                <div class="nav-img">
+                    <img class="img-navs" src="assets/img/thumb1.png"
+                        onclick="imgSlider(`assets/img/img1.png`); changeCircleColor(` #006241`)">
+                    <img class="img-navs" src="assets/img/thumb2.png"
+                        onclick="imgSlider(`assets/img/img2.png`); changeCircleColor(`#eb7495`)">
+                    <img class="img-navs" src="assets/img/thumb3.png"
+                        onclick="imgSlider(`assets/img/img3.png`); changeCircleColor(`#d752b1`)">
+                </div>
+                <div class="circle"></div>
+            </div>
 
-    <header>
-        <div class="div-header">
-            <div class="logo-header">
-                <img class="logo" src="./images/logo.png" alt="">
-            </div>
-            <div class="menu">
-                <a href="#">Home</a>
-                <a href="#">Menu</a>
-                <a href="#">What´s New</a>
-                <a href="#">Contact us</a>
-            </div>
-            
-        </div>
-    </header>
+        </section>
+    </main>
 
-    <section>
-        <div class="div-sect">
-            <div class="div-left">
-                <h1>It´s not just Coffee <br>It´s <span>Starbucks</span></h1>    
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci at accusantium, magnam quis ad minima itaque tenetur officia delectus esse, sed voluptate tempore animi. Illum voluptas atque esse non temporibus!</p>
-                <button>Learn More</button>
-            </div>
-            <div class="div-right">
-                <img class="img-right" src="./images/img1.png" alt="">
-            </div>
-        </div>
-    </section>
-<div class="circulo">
-    
-</div>
+
+    <script src="./assets/script.js"></script>
+
 </body>
 
 </html>
